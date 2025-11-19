@@ -22,7 +22,7 @@ function createGrid(size){
 
             coloredSquare.push(square);
 
-            if(coloredSquare.length > 10){
+            if(coloredSquare.length > 15){
                 let oldestSquare = coloredSquare.shift();
                 oldestSquare.style.backgroundColor = 'white';
             }
